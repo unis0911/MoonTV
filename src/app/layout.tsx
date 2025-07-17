@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 
   return {
-    title: siteName,
+    title: LongtTV,
     description: '影视聚合',
     manifest: '/manifest.json',
   };
